@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BILLING</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="dark">
+    <div class="box">
+      <div class="box-profile flex flex-column justify-between">
+        <div class="profile flex flex-column">
+          <div class="information flex items-center">
+            <figure class="mr-12px">
+              <img src="/img/avatar.png" alt="Ildiko" />
+            </figure>
+            <div class="inner">
+              <p class="text-md text-semibold">Ildiko Gaspar</p>
+              <small class="text-sm text-mute">@igaspar</small>
+            </div>
+          </div>
+          <nav class="navbar">
+            <a href="#" class="navbar-link flex items-center mb-8px">
+              <div class="long">
+                <i class="icon icon-long icon-strech"></i>
+              </div>
+              <div class="navbar-link-container flex items-center">
+                <img src="/icon/Frame.svg">
+                <span class="navbar-text text-mute text-sm">General</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link flex items-center mb-8px">
+              <div class="long">
+                <i class="icon icon-long icon-strech"></i>
+              </div>
+              <div class="navbar-link-container flex items-center">
+               <img src="/icon/lock.svg">
+                <span class="navbar-text text-mute text-sm">Password</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link flex items-center mb-8px">
+              <div class="long">
+                <i class="icon icon-long icon-strech"></i>
+              </div>
+              <div class="navbar-link-container flex items-center">
+                <img src="/icon/messages.svg">
+                <span class="navbar-text text-mute text-sm">Invitations</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link flex items-center mb-8px">
+              <div class="long">
+                <i class="icon icon-long icon-strech"></i>
+              </div>
+              <div class="navbar-link-container active flex items-center">
+               <img src="/icon/photo.svg">
+                <span class="navbar-text text-mute text-sm">Billing</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link flex items-center mb-8px">
+              <div class="long">
+                <i class="icon icon-long icon-strech"></i>
+              </div>
+              <div class="navbar-link-container flex items-center">
+                <img src="/icon/apps.svg">
+                <span class="navbar-text text-mute text-sm">Apps</span>
+              </div>
+            </a>
+          </nav>
+          <a>
+        </div>
+        <div class="log-out flex items-center ml-16px">
+         <img src="/icon/log.svg">
+          <span class="text-mute text-sm">Log out</span>
+        </div>
+        </a>
+      </div>
+      <div class="box-billing">
+        <div class="box-billing-title">
+          <h3 class="text-xl text-semibold">Billing</h3>
+        </div>
+        <div class="history flex justify-between">
+          <div class="box-order flex flex-column justify-between">
+            <div class="ml-16px">
+              <p class="text-md text-semibold">Order History</p>
+              <small class="text-mute text-sm text-500 mb-4px"
+                >Manage billing information and view receips</small
+              >
+            </div>
+            <table class="table">
+              <thead>
+                <tr class="flex items-center justify-between pl-16px">
+                  <td class="text-mute text-sm text-500">Date</td>
+                  <td class="text-mute text-sm text-500">Type</td>
+                  <td class="text-mute text-sm text-500">Receipt</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="flex items-center justify-between">
+                  <td>Oct. 21, 2021</td>
+                  <td>Pro Annual</td>
+                  <td>
+                    <button class="btn">Download</button>
+                  </td>
+                </tr>
+                <tr class="active flex items-center justify-between">
+                  <td>Aug. 21, 2021</td>
+                  <td>Pro Portfolio</td>
+                  <td>
+                    <button class="btn">Download</button>
+                  </td>
+                </tr>
+                <tr class="flex items-center justify-between">
+                  <td>July. 21, 2021</td>
+                  <td>Sponsored Post</td>
+                  <td>
+                    <button class="btn">Download</button>
+                  </td>
+                </tr>
+                <tr class="flex items-center justify-between">
+                  <td>Jun. 21, 2021</td>
+                  <td>Sponsored Post</td>
+                  <td>
+                    <button class="btn">Download</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="load ml-16px">
+              <a href="#">Load more</a>
+            </div>
+            <div class="payment ml-16px">
+              <p class="text-md text-semibold">Payment Method</p>
+              <small class="text-mute text-sm text-500 mb-4px"
+                >Manage billing information and view receips</small>
+            </div>
+            <div class="visa flex items-center justify-between ml-16px">
+              <div class="visa flex items-center">
+                <figure class="mr-16px">
+                  <img src="/img/visa.png" alt="visa" />
+                </figure>
+                <p class="text-md text-500">Visa ending in 2255</p>
+              </div>
+              <button class="btn">Remove</button>
+            </div>
+          </div>
+          <div class="box-annual flex flex-column justify-between">
+            <p class="text-md text-500">Your plan</p>
+            <div>
+              <h3>Pro Annual</h3>
+              <small class="text-md text-500 mt-4px">Renews on Nov. 2021</small>
+            </div>
+            <button class="btn-long text-md text-500 text-light">
+              Cancel subscription
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

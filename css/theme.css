@@ -1,0 +1,9 @@
+.dark {
+    background-color: #e8e8fd;
+  }
+  .light {
+    background-color: linear-gradient(322deg, #f8f8ff 0%, #fff 100%);
+  }
+  .gray {
+    background-color: #f8f8ff;
+  }

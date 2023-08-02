@@ -1,0 +1,60 @@
+.icon {
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .icon-long {
+    width: 6px;
+    height: 48px;
+  }
+  .icon-petty {
+    width: 4px;
+    height: 4px;
+  }
+  .icon-s {
+    width: 12px;
+    height: 12px;
+  }
+  .icon-xs {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .icon-sm {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .icon-md {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon-lg {
+    width: 32px;
+    height: 32px;
+  }
+  .icon-general {
+    background-image: url(../icons/Frame.svg);
+  }
+  .icon-lock {
+    background-image: url(../icons/lock.svg);
+  }
+  .icon-message {
+    background-image: url(../icons/messages.svg);
+  }
+  .icon-photo {
+    background-image: url(../icons/photo.svg);
+  }
+  .icon-apps {
+    background-image: url(../icons/apps.svg);
+  }
+  .icon-log {
+    background-image: url(../icons/log.svg);
+  }
+  .icon-strech {
+    background-image: url(../icons/Rectangle.svg);
+    flex-shrink: 0;
+  }
+  

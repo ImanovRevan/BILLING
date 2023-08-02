@@ -1,0 +1,105 @@
+.box {
+    display: grid;
+    grid-template-columns: 260px auto;
+    margin: 160px auto;
+    width: 1319px;
+    height: 879px;
+    border-radius: 32px;
+    box-shadow: 0px 49px 32px -19px rgba(56, 56, 150, 0.15);
+    overflow: hidden;
+  }
+  
+ 
+  .box-profile {
+    width: 260px;
+    background-color: #f8f8ff;
+  }
+  .box-billing {
+    background-color: #ffffff;
+  }
+  .information {
+    width: 178px;
+    margin: 58px 44px 49px 38px;
+  }
+  .profile figure {
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+  }
+  
+  .navbar-link,
+  .log-out {
+    width: 228px;
+    height: 48px;
+    padding: 0 16px 0 16px;
+  }
+  .log-out {
+    margin-bottom: 29px;
+  }
+  .navbar-link-container {
+    width: 222px;
+    height: 48px;
+    padding: 8px 8px 8px 16px;
+  }
+  .navbar-link .long i {
+    display: none;
+  }
+  .navbar-link-container .active span {
+    color: black;
+  }
+  .box-billing-title {
+    padding: 65px 0 50px 72px;
+  }
+  .history {
+    padding: 0 56px;
+  }
+  .box-order {
+    width: 617px;
+    height: 610px;
+  }
+  
+  .table {
+    width: 617px;
+    height: 221px;
+    padding: 8px 16px;
+  }
+  .table thead tr {
+    height: 21px;
+    padding-right: 62px;
+  }
+  .table tbody tr {
+    width: 614px;
+    padding: 8px 16px;
+    height: 56px;
+  }
+  .table tbody tr.active {
+    width: 617px;
+    height: 56px;
+    box-shadow: 0px 8px 19px 0px rgba(223, 223, 253, 0.6);
+    border-radius: 8px;
+  }
+  .load a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    text-decoration: underline;
+  }
+  
+  figure {
+    width: 67px;
+    height: 38px;
+  }
+  .box-annual {
+    width: 258px;
+    height: 221px;
+    background-color: var(--primary);
+    padding: 32px;
+    border-radius: 32px;
+    overflow: hidden;
+    color: var(--lighttext);
+  }
+  .box-annual h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  

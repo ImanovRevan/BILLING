@@ -1,0 +1,19 @@
+.btn {
+    width: 114px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #cbcbd9;
+    background: inherit;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn-long {
+    width: 194px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #cbcbd9;
+    background: inherit;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
